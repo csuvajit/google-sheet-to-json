@@ -5,9 +5,9 @@
 First, you must publish your spreadsheet to the web, using `File > Publish To Web` in your Google Spreadsheet.
 
 ```js
-const { Gsx } = require('gsx-to-json');
+const { Sheet } = require('gsx-to-json');
 
-const sheet = new Gsx({
+const sheet = new Sheet({
     id: '1hY2zD8b0uK7fGEhZMMzUsfDNyKYud3MYae3d2jEQihM',
     sheet: 1,
     query: '',

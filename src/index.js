@@ -1,4 +1,4 @@
 module.exports = {
-	Gsx: require('./api'),
+	Sheet: require('./Sheet'),
 	version: require('../package.json').version
 };

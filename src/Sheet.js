@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-class Gsx {
+class Sheet {
 	constructor(option) {
 		this.id = option.id;
 		this.sheet = option.sheet || 1;
@@ -88,4 +88,4 @@ class Gsx {
 	}
 }
 
-module.exports = Gsx;
+module.exports = Sheet;
