@@ -3,10 +3,10 @@
   "version": "1.0.1",
   "description": "Google Spreadsheet to JSON",
   "main": "src/index.js",
-  "author": "SUVAJIT (esuvajit@gmail.com)",
+  "author": "SUVAJIT (suvajit.me@gmail.com)",
   "license": "MIT",
   "scripts": {
-    "test": "eslint ./",
+    "test": "eslint src/",
     "build": "eslint --fix src/"
   },
   "keywords": [
