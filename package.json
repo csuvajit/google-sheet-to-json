@@ -1,12 +1,12 @@
 {
   "name": "gsx-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Google Spreadsheet to JSON",
   "main": "src/index.js",
-  "author": "SUVAJIT (suvajit.me@gmail.com)",
+  "author": "SUVAJIT (esuvajit@gmail.com)",
   "license": "MIT",
   "scripts": {
-    "test": "eslint src/",
+    "test": "eslint ./",
     "build": "eslint --fix src/"
   },
   "keywords": [
