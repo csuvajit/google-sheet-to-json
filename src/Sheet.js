@@ -35,20 +35,20 @@ class Sheet {
 		const data = await res.json().catch(() => null);
 		if (!data) throw new Error('Invalid sheet ID or document is not published.');
 
-		let Obj = {};
-		let rows = [];
-		let columns = {};
+		const Obj = {};
+		const rows = [];
+		const columns = {};
 
 		for (const entry of data.feed.entry.values()) {
-			let keys = Object.keys(entry);
-			let newRow = {};
+			const keys = Object.keys(entry);
+			const newRow = {};
 			let queried = false;
 
 			for (const key of keys.values()) {
-				let gsx = key.indexOf('gsx$');
+				const gsx = key.indexOf('gsx$');
 				if (gsx > -1) {
-					let name = key.substring(4);
-					let content = entry[key];
+					const name = key.substring(4);
+					const content = entry[key];
 					let value = content.$t;
 
 					if (value.toLowerCase().indexOf(query.toLowerCase()) > -1) {
@@ -61,6 +61,7 @@ class Sheet {
 
 					newRow[name] = value;
 					if (queried === true) {
+						// eslint-disable-next-line no-negated-condition
 						if (!columns.hasOwnProperty(name)) {
 							columns[name] = [];
 							columns[name].push(value);

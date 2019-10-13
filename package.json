@@ -1,6 +1,6 @@
 {
   "name": "gsx-json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Google Spreadsheet to JSON",
   "main": "src/index.js",
   "author": "SUVAJIT (esuvajit@gmail.com)",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-aqua": "^6.0.0"
+    "eslint-config-super": "^1.0.0"
   },
   "directories": {
     "test": "test"
