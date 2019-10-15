@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "test": "eslint ./",
-    "build": "eslint --fix src/"
+    "lint": "eslint --fix src/"
   },
   "keywords": [
     "csv to json",
@@ -19,17 +19,17 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-super": "^1.0.0"
+    "eslint-config-mars": "^1.0.1"
   },
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csuvajit/gsx-to-json.git"
+    "url": "git+https://github.com/csuvajit/gsx-json.git"
   },
   "bugs": {
-    "url": "https://github.com/csuvajit/gsx-to-json/issues"
+    "url": "https://github.com/csuvajit/gsx-json/issues"
   },
-  "homepage": "https://github.com/csuvajit/gsx-to-json#readme"
+  "homepage": "https://github.com/csuvajit/gsx-json#readme"
 }
