@@ -6,8 +6,8 @@
   "author": "SUVAJIT (esuvajit@gmail.com)",
   "license": "MIT",
   "scripts": {
-    "test": "eslint ./",
-    "lint": "eslint --fix src/"
+    "test": "eslint --ext .js --ignore-path .gitignore .",
+    "lint": "eslint --fix --ext .js --ignore-path .gitignore ."
   },
   "keywords": [
     "csv to json",
