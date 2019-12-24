@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csuvajit/gsx-json.git"
+    "url": "git+https://github.com/ndency/gsx-json.git"
   },
   "bugs": {
-    "url": "https://github.com/csuvajit/gsx-json/issues"
+    "url": "https://github.com/ndency/gsx-json/issues"
   },
-  "homepage": "https://github.com/csuvajit/gsx-json#readme"
+  "homepage": "https://github.com/ndency/gsx-json#readme"
 }
